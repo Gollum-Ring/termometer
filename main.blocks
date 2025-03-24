@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="*)fJ-O2|+Qs)79yO[G}x" x="90" y="-341"><statement name="HANDLER"><block type="controls_if" id="EZ@8v!OtnoW/e7{_D/Pu"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="*LT)b{[H;]Ve#b1D7_Yz"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Xv@W_f]HTqAOu%m.~k|0"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="k`.!8Lq_WD!$3;EY$4UR" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_temperature" id="hh@+OfboAmT=Vb2dQL)K"></block></value><value name="B"><shadow type="math_number" id="sf/B?UbnVtq[dktowwt,"><field name="NUM">30</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~8J^?.deV~9=Sr=.Ho57"><field name="LEDS">`
+        # . . # . 
+        . # . . # 
+        # . . # . 
+        . # . . # 
+        # . . # .
+        `</field><next><block type="device_set_led_color" id="m*wd3)uTD5gp5MZE7rvV"><value name="color"><shadow type="colorNumberPicker" id="+~2WMzvaMaX:brk2#=(d"><field name="value">0xff0000</field></shadow></value></block></next></block></statement><value name="IF1"><shadow type="logic_boolean" id="~j2{V7S~x3p^uv8E1Blr"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="bR}U1KJyKc`?^F,]g#Nw"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="tiAP`ygq]w.w:N#ih/iT" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_temperature" id="XRu]:%^ZM40`~~BW;[$z"></block></value><value name="B"><shadow type="math_number" id="WHgq;Ma]-dw`.O/P}#O6"><field name="NUM">20</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="CpsDS]Q?~GjBXk9~R%$9"><field name="LEDS">`
+        . # . # . 
+        # # . # # 
+        . . # . . 
+        # # . # # 
+        . # . # .
+        `</field><next><block type="device_set_led_color" id="|_Yyt.CfCv0ZJCFzS~Qx"><value name="color"><shadow type="colorNumberPicker" id="s-xHrEa?4$^G]W`|~Fi*"><field name="value">0x00ffff</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="v=aex!l*7y15IjFV!m9-"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . . 
+        . . . . .
+        `</field><next><block type="device_set_led_color" id="p7+93oBLmLce_0cv?VxP"><value name="color"><shadow type="colorNumberPicker" id="J_,-iW=|S.U^{Y*P!+S,"><field name="value">0x00ff00</field></shadow></value></block></next></block></statement></block></statement></block></xml>
